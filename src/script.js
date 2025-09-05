@@ -28,7 +28,7 @@ let mixer = null;
 
 let burger = null;
 
-gltfLoader.load("/models/burger.glb", (gltf) => {
+gltfLoader.load("./models/burger.glb", (gltf) => {
 	burger = gltf.scene;
 	scene.add(burger);
 });
